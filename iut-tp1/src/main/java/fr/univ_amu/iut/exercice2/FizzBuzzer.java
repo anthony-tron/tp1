@@ -12,7 +12,7 @@ public class FizzBuzzer {
         else if (i % 5 == 0)
             s = "Buzz";
         else
-            s = Integer.toString(i);
+            s = String.valueOf(i);
 
         return s;
     }
